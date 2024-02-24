@@ -18,7 +18,9 @@ export default function Home() {
         </Center>
         <p>
           Geologic UI is a component library inspired by 90's style web design
-          on Geocities. It is compatible with Next.js and React.{" "}
+          on Geocities. It contains buttons, horizontal rules, HTML5 compliant
+          center tag and Blink tag. More components are soon to come. It is
+          compatible with Next.js and React.{" "}
           <a href="https://github.com/M-Valentino/geologic-ui">
             Geologic UI is open source and it's repo can be found on GitHub
           </a>
@@ -27,7 +29,7 @@ export default function Home() {
         <pre>{`npm i geologic-ui`}</pre>
         <div className="warning">Note</div>
         <div>Geologic UI only supports three digit hex colors like "#02a".</div>
-        
+
         <HR size="lg" color="#080" />
         <h2>Importing Components</h2>
         <p>Simply import componets like this:</p>
