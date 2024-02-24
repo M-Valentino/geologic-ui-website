@@ -18,9 +18,9 @@ export default function Home() {
         </Center>
         <p>
           Geologic UI is a component library inspired by 90's style web design
-          on Geocities. It contains buttons, horizontal rules, HTML5 compliant
-          center tag and Blink tag. More components are soon to come. It is
-          compatible with Next.js and React.{" "}
+          on Geocities. It contains buttons, horizontal rules, an HTML5 compliant
+          center tag, and an HTML5 compliant Blink tag. More components are soon
+          to come. It is compatible with Next.js and React.{" "}
           <a href="https://github.com/M-Valentino/geologic-ui">
             Geologic UI is open source and it's repo can be found on GitHub
           </a>
