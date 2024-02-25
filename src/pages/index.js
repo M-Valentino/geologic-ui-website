@@ -152,7 +152,7 @@ export default function Home() {
             </div>
           ))}
         </div>
-        <p>Icons can be saled up too:</p>
+        <p>Icons can be scaled up too:</p>
         <Icon name="earth" size="sm" />
         <Icon name="earth" size="md" />
         <Icon name="earth" size="lg" />
