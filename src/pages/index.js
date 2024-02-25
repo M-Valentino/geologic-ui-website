@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import { Button, Center, Blink, HR } from "geologic-ui";
 
 export default function Home() {
@@ -15,7 +14,10 @@ export default function Home() {
           to come."
         />
         <meta name="author" content="Mark Valentino" />
-        <meta name="keywords" content="component library, ui, React, geocities, npm, 90's, retro" />
+        <meta
+          name="keywords"
+          content="component library, ui, React, geocities, npm, 90's, retro"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <script
@@ -58,6 +60,11 @@ export default function Home() {
         <pre>{`import { Button, Center, Blink, HR } from "geologic-ui";`}</pre>
         <HR size="sm" color="#080" />
         <h2>Blink</h2>
+        <p>
+          The blink tag was introduced as a non-stantand HTML tag on Netscape
+          Navigator. No major browsers support it today, but you can bring the
+          functionality back with the Blink component!
+        </p>
         <Blink>
           <p className="bigText">This text blinks!</p>
         </Blink>
@@ -90,6 +97,10 @@ export default function Home() {
         </pre>
         <HR size="sm" color="#080" />
         <h2>Center</h2>
+        <p>
+          The center tag was deprecated in HTML5, but the Center component
+          brings this functionality back but with HTML5 compliance.
+        </p>
         <Center>
           <Button
             color="#00f"
