@@ -1,5 +1,6 @@
 import Head from "next/head";
-import { Button, Center, Blink, HR } from "geologic-ui";
+import { iconNames } from "@/iconSRCs";
+import { Button, Center, Blink, HR, Icon } from "geologic-ui";
 
 export default function Home() {
   return (
@@ -131,6 +132,39 @@ export default function Home() {
 <HR size="lg" color="#ff0"/>
 <HR size="xl" color="#8f0"/>`}
         </pre>
+        <HR size="sm" color="#080" />
+        <h2>Icon</h2>
+        <p>
+          Chose from a collection of 27x27 pixel art icons. Copy and paste the
+          name of the icon to use it.
+        </p>
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fill, 80px)",
+            gap: "10px",
+          }}
+        >
+          {iconNames.map((data, key) => (
+            <div key={key} style={{ textAlign: "center", fontSize: 10 }}>
+              <Icon name={data} />
+              <div>{data}</div>
+            </div>
+          ))}
+        </div>
+        <p>Icons can be saled up too:</p>
+        <Icon name="earth" size="sm" />
+        <Icon name="earth" size="md" />
+        <Icon name="earth" size="lg" />
+        <Icon name="earth" size="xl" />
+        <h3>Usage</h3>
+        <pre>{`
+<Icon name="earth" size="sm" />
+<Icon name="earth" size="md" />
+<Icon name="earth" size="lg" />
+<Icon name="earth" size="xl" />
+        `}</pre>
+        <HR size="sm" color="#080" />
       </main>
     </>
   );
