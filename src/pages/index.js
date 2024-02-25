@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { iconNames } from "@/iconSRCs";
-import { Button, Center, Blink, HR, Icon } from "geologic-ui";
+import { Blink, Button, Center, HR, Icon } from "geologic-ui";
 
 export default function Home() {
   return (
@@ -58,7 +58,7 @@ export default function Home() {
         <HR size="lg" color="#080" />
         <h2>Importing Components</h2>
         <p>Simply import componets like this:</p>
-        <pre>{`import { Button, Center, Blink, HR } from "geologic-ui";`}</pre>
+        <pre>{`import { Blink, Button, Center, HR, Icon } from "geologic-ui";`}</pre>
         <HR size="sm" color="#080" />
         <h2>Blink</h2>
         <p>
