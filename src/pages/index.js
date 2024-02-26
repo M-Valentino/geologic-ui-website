@@ -166,6 +166,7 @@ export default function Home() {
         `}</pre>
         <HR size="sm" color="#080" />
       </main>
+      <footer><a href="/privacy">Privacy</a></footer>
     </>
   );
 }
