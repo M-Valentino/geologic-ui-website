@@ -1,6 +1,4 @@
 import Head from "next/head";
-import { iconNames } from "@/iconSRCs";
-import { Blink, Button, Center, HR, Icon } from "geologic-ui";
 
 export default function Home() {
   return (
