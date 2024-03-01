@@ -39,7 +39,8 @@ export default function Home() {
 
       <main>
         <Center>
-          <h1 style={{ color: "#080" }}>Geologic UI</h1>
+          <Icon name="earth" size="md" />
+          <h1>Geologic UI</h1>
         </Center>
         <p>
           Geologic UI is a component library inspired by 90's style web design
@@ -153,20 +154,22 @@ export default function Home() {
           ))}
         </div>
         <p>Icons can be scaled up too:</p>
-        <Icon name="earth" size="sm" />
-        <Icon name="earth" size="md" />
-        <Icon name="earth" size="lg" />
-        <Icon name="earth" size="xl" />
+        <Icon name="alien" size="sm" />
+        <Icon name="alien" size="md" />
+        <Icon name="alien" size="lg" />
+        <Icon name="alien" size="xl" />
         <h3>Usage</h3>
         <pre>{`
-<Icon name="earth" size="sm" />
-<Icon name="earth" size="md" />
-<Icon name="earth" size="lg" />
-<Icon name="earth" size="xl" />
+<Icon name="alien" size="sm" />
+<Icon name="alien" size="md" />
+<Icon name="alien" size="lg" />
+<Icon name="alien" size="xl" />
         `}</pre>
         <HR size="sm" color="#080" />
       </main>
-      <footer><a href="/privacy">Privacy</a></footer>
+      <footer>
+        <a href="/privacy">Privacy</a>
+      </footer>
     </>
   );
 }
