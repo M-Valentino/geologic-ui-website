@@ -1,6 +1,13 @@
 import Head from "next/head";
 import { iconNames } from "@/iconSRCs";
-import { Blink, Button, Center, HR, Icon } from "geologic-ui";
+import {
+  Blink,
+  Button,
+  Center,
+  HR,
+  Icon,
+  UnderConstruction,
+} from "geologic-ui";
 
 export default function Home() {
   return (
@@ -45,8 +52,9 @@ export default function Home() {
         <p>
           Geologic UI is a component library inspired by 90's style web design
           on Geocities. It contains buttons, horizontal rules, an HTML5
-          compliant center tag, and an HTML5 compliant Blink tag. More
-          components are soon to come. It is compatible with Next.js and React.{" "}
+          compliant center tag, and an HTML5 compliant Blink tag. As a bonus,
+          Geologic UI has a special construction tape component for when your
+          site is getting renovated! It is compatible with Next.js and React.{" "}
           <a href="https://github.com/M-Valentino/geologic-ui">
             Geologic UI is open source and it's repo can be found on GitHub
           </a>
@@ -55,11 +63,10 @@ export default function Home() {
         <pre>{`npm i geologic-ui`}</pre>
         <div className="warning">Note</div>
         <div>Geologic UI only supports three digit hex colors like "#02a".</div>
-
         <HR size="lg" color="#080" />
         <h2>Importing Components</h2>
         <p>Simply import componets like this:</p>
-        <pre>{`import { Blink, Button, Center, HR, Icon } from "geologic-ui";`}</pre>
+        <pre>{`import { Blink, Button, Center, HR, Icon, UnderConstruction } from "geologic-ui";`}</pre>
         <HR size="sm" color="#080" />
         <h2>Blink</h2>
         <p>
@@ -122,9 +129,13 @@ export default function Home() {
         </pre>
         <HR size="sm" color="#080" />
         <h2>HR</h2>
+        sm
         <HR size="sm" color="#f00" />
+        md
         <HR size="md" color="#f80" />
+        lg
         <HR size="lg" color="#ff0" />
+        xl
         <HR size="xl" color="#8f0" />
         <h3>Usage</h3>
         <pre>
@@ -166,7 +177,28 @@ export default function Home() {
 <Icon name="alien" size="xl" />
         `}</pre>
         <HR size="sm" color="#080" />
+        <h2>UnderConstruction</h2>
+        <p>
+          This construction tape helps let your site visitors know that your
+          site is only going to look bad temporarily
+        </p>
+        sm
+        <UnderConstruction size="sm" />
+        md
+        <UnderConstruction size="md" />
+        lg
+        <UnderConstruction size="lg" />
+        xl
+        <UnderConstruction size="xl" />
+        <h3>Usage</h3>
+        <pre>
+          {`<UnderConstruction size="sm" />
+<UnderConstruction size="md" />
+<UnderConstruction size="lg" />
+<UnderConstruction size="xl" />`}
+        </pre>
       </main>
+      <HR size="sm" color="#080" />
       <footer>
         <a href="/privacy">Privacy</a>
       </footer>
