@@ -180,7 +180,7 @@ export default function Home() {
         <h2>UnderConstruction</h2>
         <p>
           This construction tape helps let your site visitors know that your
-          site is only going to look bad temporarily
+          site is only going to look bad temporarily. 
         </p>
         sm
         <UnderConstruction size="sm" />
