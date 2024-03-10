@@ -1,5 +1,6 @@
 html {
   overscroll-behavior: none;
+  image-rendering: pixelated;
 }
 
 body {
@@ -14,8 +15,7 @@ body {
   position: sticky;
   top: 0;
   background-color: #9e9;
-  border-right: 4px ridge #ccc;
-  padding-right: 8px;
+  border-right: 4px ridge #080;
 }
 
 @media only screen and (max-width: 890px) {
@@ -32,6 +32,7 @@ li {
   font-size: 17px;
   line-height: 20px;
   margin-bottom: 10px;
+  margin-right: 8px;
 }
 
 #desktopNavUl {

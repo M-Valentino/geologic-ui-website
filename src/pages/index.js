@@ -68,12 +68,23 @@ export default function Home() {
               <a href="#underConstruction">UnderConstruction</a>
             </li>
           </ul>
+          <HR color="#080" />
+          <Center>
+            <a href="https://vercel.com">
+              <img src="/hosted_on_vercel.png" alt="Hosted on Vercel" />
+            </a>
+          </Center>
+          <Center>
+            <a href="https://github.com/M-Valentino/geologic-ui">
+              <img src="/githubbutton.png" alt="GitHub button" />
+            </a>
+          </Center>
         </nav>
         <main>
           <header>
             <Center>
               <span id="globe">
-              <Icon name="earth" size="md" />
+                <Icon name="earth" size="md" />
               </span>
               <h1>Geologic UI</h1>
             </Center>
