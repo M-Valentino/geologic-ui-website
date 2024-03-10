@@ -4,14 +4,14 @@ body {
 }
 
 #desktopNav {
-  width: 220px;
+  width: 224px;
   height: 100vh;
   z-index: 10;
   position: sticky;
   top: 0;
   background-color: #9e9;
   border-right: 4px ridge #ccc;
-  padding-right: 4px;
+  padding-right: 8px;
 }
 
 @media only screen and (max-width: 890px) {
@@ -25,7 +25,7 @@ body {
 }
 
 li {
-  font-size: 18px;
+  font-size: 17px;
   line-height: 20px;
   margin-bottom: 10px;
 }
@@ -35,7 +35,7 @@ li {
 }
 
 #mainAndNavContainer {
-  max-width: 900px;
+  max-width: 1024px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
